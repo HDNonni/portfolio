@@ -1,0 +1,27 @@
+:root{
+    --text-color: rgb(82, 6, 56);
+}
+.content {
+  display: flex;
+  background: lightgray;
+  height: 100vh;
+}
+
+main {
+  flex: 3;
+}
+article {
+  background: linen;
+  padding: 2rem;
+  margin-top:5rem;
+  margin-left:4rem;
+  margin-right:4rem;
+  height:50%;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: yellow;
+  margin:5rem 1rem;
+  color: var(--text-color);
+}
