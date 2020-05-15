@@ -9,8 +9,7 @@
 .welcome {
   height: 5rem;
   background: linen;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  
   padding-top: 0.5rem;
   text-align: center;
   font-size: 3rem;
@@ -33,10 +32,21 @@ article {
   height: 30rem;
   border-radius: 5px;
 }
-
+.main-content{
+  line-height: 2;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.quote{
+  font-style:italic;
+}
+.welcomeLine{
+  text-align: center;
+  padding-top:.5rem;
+}
 .sidebar {
   flex: 1;
-  background-color: yellow;
+  background-color: rgb(243, 243, 195);
   margin: 5rem 1rem;
   margin-right: 3rem;
   color: var(--text-color);

@@ -3,7 +3,7 @@ import "./MainNav.css";
 // this import logo works because image file in src folder not public
 //import logo from '../nightskyBackground.png'
 
-function Nav() {
+function MainNav() {
   return (
     <nav className = "navbar">
       <ul className="navbar-nav">
@@ -37,7 +37,7 @@ function Nav() {
           </a>
         </li>
         <li className="nav-item">
-        <a href="#" className="nav-link">
+        <a href="/" className="nav-link">
             <svg
               className="theme-icon"
               id="lightIcon"
@@ -67,7 +67,7 @@ function Nav() {
           </a>
         </li>
         <li className="nav-item">
-        <a href="#" className="nav-link">
+        <a href="/about" className="nav-link">
         <svg
               className="theme-icon"
               id="darkIcon"
@@ -98,7 +98,7 @@ function Nav() {
         </li>
   
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="/projects" className="nav-link">
           <svg
               className="theme-icon"
               id="solarIcon"
@@ -124,14 +124,14 @@ function Nav() {
                 ></path>
               </g>
             </svg>
-            <span className="link-text">Brighten Your Day</span>
+            <span className="link-text">My Shining Projects</span>
           </a>
         </li>
   
         
   
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="/fun" className="nav-link">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -155,7 +155,7 @@ function Nav() {
                 ></path>
               </g>
             </svg>
-            <span className="link-text">Out of this World</span>
+            <span className="link-text">Blastoff to Fun!</span>
           </a>
         </li>
   
@@ -244,4 +244,4 @@ function Nav() {
     </nav>
   );
 }
-export default Nav;
+export default MainNav;

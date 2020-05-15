@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: linen;
+  /* margin-right: 3rem;
+  margin-left: 3rem; */
+  border-radius:5px;
+  
+}
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  list-style: none;
+  
+}

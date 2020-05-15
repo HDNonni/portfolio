@@ -8,20 +8,20 @@ function Footer() {
         <tbody className="footerStyle">
           <tr>
             <td>
-              <a href="" alt="Home Page">
+              <a href="/" alt="Home Page">
                 Home
               </a>
             </td>
             <td>
-              <a href="">My Projects</a>
+              <a href="/projects">My Projects</a>
             </td>
           </tr>
           <tr>
             <td>
-              <a href=""> About Me</a>
+              <a href="/about"> About Me</a>
             </td>
             <td>
-              <a href="">Fun Stuff</a>
+              <a href="/fun">Fun Stuff</a>
             </td>
             <td className="copyWrite">&copy; HDNonni 2020.</td>
           </tr>

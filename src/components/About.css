@@ -1,0 +1,70 @@
+:root {
+  --text-color: rgb(82, 6, 56);
+  --bckgrd: rgb(235, 232, 232);
+}
+html body {
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contentAbout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background: var(--bckgrd);
+  height:100vh;
+}
+.aboutHeading {
+  text-align: center;
+  padding-top: 1rem;
+  /* width: 100%; */
+  color: var(--text-color);
+  background: var(--bckgrd);
+}
+.mainAbout {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+  flex: 1;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  margin:1rem 2rem;
+  background-color: lightgray;
+}
+.card2 img{
+  margin-left:5rem;
+}
+.card1 img{
+  margin-left:5rem;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border:solid 3px black;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.322);
+  width:25rem;
+  height:19rem;
+  margin-top:2rem;
+  /* margin-left:5rem; */
+}
+.imageHeading{
+  text-align:center;
+}
+.imageDesc{
+  text-align:center;
+  
+}
+.column1{
+  text-align: center;
+  padding:1rem 1.5rem .0 1.5rem;
+}
+.column2{
+  text-align: center;
+  margin:.75rem 2rem .5rem 1.5rem;
+}
+

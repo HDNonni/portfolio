@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Fun from "./components/Fun";
 import Projects from "./components/Projects";
+import Nav from "./components/Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -15,18 +16,23 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/about" component = {About}/>
-            {/*  add new nav for other pages hee to start */}
+          <Route path="/about" component={About}>
+            <Nav />
+            <About/>
+            <Footer />
+          </Route>
+          {/*  add new nav for other pages here to start */}
+          {/* <Nav/> revisit not working as expected   */}
           <Route path="/projects" component={Projects} />
           <Route path="/fun" component={Fun} />
           <Route path="/" exact>
             <Header />
-            <MainNav/>
+            <MainNav />
             <Content />
-            
+            <Footer />
           </Route>
+          <Footer />
         </Switch>
-        <Footer />
       </div>
     </Router>
   );
