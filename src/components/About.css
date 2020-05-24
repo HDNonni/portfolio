@@ -16,12 +16,26 @@ html body {
   height:100vh;
 }
 .aboutHeading {
-  text-align: center;
-  padding-top: 1rem;
-  /* width: 100%; */
-  color: var(--text-color);
-  background: var(--bckgrd);
-}
+    display: flex;
+    flex-direction: column;
+    height:30rem;
+    width:100%;
+    background-image: url("../assets/images/sunglasses2.jpg");
+    /* https://www.neovisioneyecenters.com/the-science-of-sunglasses/ */
+    background-color: rgb(109, 10, 56);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:center  bottom 5em; */
+    background-position:center bottom ;
+    background-attachment:fixed;
+    color: white;
+    font-size:3rem;
+    text-align:start;
+    padding-top: 10rem;
+    padding-left:1rem;
+    background-color: lightgray;
+  }
+
 .mainAbout {
   display: flex;
   flex-direction: column;

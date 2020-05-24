@@ -69,11 +69,11 @@ function About() {
               imageDescription="Nonni's Babies"
             />
           </div>
-          {/* </div> */}
+       
         </div>
         <div className="mainAbout">
           <div >
-            {/* <img></img> */}
+           
             <div className="card card2">
               <CardImage
                 imageSrc={imageFamily}

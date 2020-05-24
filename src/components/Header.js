@@ -8,7 +8,7 @@ function Header() {
   return (
     <header>
    
-      <h1 className = 'header'>HDNonni</h1>
+      <h1 className ="header">HDNonni</h1>
       <p className = 'headerAddition'>"Life is a journey, not a destination." <sub>Ralph Waldo Emerson</sub></p>
       {/* <img src = {logo} alt = 'background'/>; */}
       

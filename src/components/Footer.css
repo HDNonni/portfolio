@@ -2,6 +2,7 @@
   --text-color: rgb(82, 6, 56);
 }
 .footerDiv {
+  display:flex;
   background: linen;
   width:100%;
 }

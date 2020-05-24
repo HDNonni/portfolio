@@ -18,16 +18,20 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 10%;
-  background-attachment:fixed;
+  background-attachment: fixed;
   color: white;
-  padding-bottom:11rem;
-  padding-left:1.5rem;
-  font-size:2rem;
+  padding-bottom: 11rem;
+  padding-left: 1.5rem;
+  font-size: 2rem;
+}
+
+.header {
+  font-family: "Courgette", cursive;
   
 }
-.headerAddition{
+.headerAddition {
   font-size: 1rem;
 }
-sub{
-  font-size:.5rem;
+sub {
+  font-size: 0.5rem;
 }
