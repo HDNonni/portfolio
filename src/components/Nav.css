@@ -21,3 +21,12 @@
   font-family: "Courgette", cursive;
   color: maroon;
 }
+.nav2-link{
+  color:blue;
+  text-decoration: none;
+  transition:color 1.0s, font-size 1.0s;
+}
+.nav2-link:hover{
+  font-size:1.25rem;
+  color:maroon;
+}

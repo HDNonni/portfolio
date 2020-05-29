@@ -108,7 +108,7 @@ function Fun() {
             <div>
               <ul className="list-items">
                 <li>
-                  Go outside! Garden, go to the beach, talk a walk just go
+                  Go outside! Garden, go to the beach, talk a walk, just go
                   outside!
                 </li>
                 <li>
@@ -122,7 +122,7 @@ function Fun() {
                 </li>
                 <li>
                   Take a class, on anything that interests you. You can learn
-                  somethng and have fun doing it!
+                  somethng, meet people and have fun doing it!
                 </li>
                 <li>
                   Read or listen to a book...they have this way of taking you on

@@ -23,8 +23,17 @@ header {
   padding-bottom: 11rem;
   padding-left: 1.5rem;
   font-size: 2rem;
-}
+  animation-name: headerTitle;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
 
+}
+@keyframes headerTitle{
+  0%{font-size:1px;}
+  30%{font-size:1rem;}
+  60%{font-size:1.5rem;}
+  100%{font-size:2rem;}
+}
 .header {
   font-family: "Courgette", cursive;
   

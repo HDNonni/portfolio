@@ -2,26 +2,39 @@ html body {
   height: 100vh;
   margin: 0;
   box-sizing: border-box;
-  background-color: rgb(231, 230, 219);
+  background-color: lightgray;
 }
 .projectsHeading {
   display: flex;
   flex-direction: column;
   height: 30rem;
   width: 100%;
-  background-image: url("../assets/images/cartoon-sunrise.jpg");
+  background-image: url("../assets/images/longRoad.jpg");
   background-color: rgb(109, 10, 56);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom 5em;
   /* background-position:center ; */
   background-attachment: fixed;
-  color: maroon;
+  color: linen;
   font-size: 3rem;
   text-align: start;
   padding-top: 10rem;
   padding-left: 1rem;
   background-color: lightgray;
+}
+.titleAnimate {
+  animation-name: projectTitle;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+}
+@keyframes projectTitle {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 .contentProjects {
   display: flex;
@@ -30,6 +43,15 @@ html body {
   width: 100%;
 }
 .mainProject {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+  flex: 1;
+}
+.columnOne {
+  text-align: start;
+}
+.columnTwo {
   display: flex;
   flex-direction: column;
   flex-basis: 75%;
