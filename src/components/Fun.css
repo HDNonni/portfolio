@@ -52,6 +52,19 @@ html body {
   flex-basis: 75%;
   flex: 1;
 }
+.headingAnimate {
+  animation-name: projectTitle;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+}
+@keyframes projectTitle {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
 
 .imageSizing {
     border:solid 1px gray;
@@ -76,12 +89,6 @@ html body {
     font-weight: bold;
     font-size:1rem;
   }
-  ul{
-    list-style-image:url("https://www.gifs.cc/bullets/red-star-1.png");
-    /* animation-name:rotateStars;
-    animation-timing-function: ease;
-    animation-duration: 1s; */
-  }
 
   ul li{
     text-align:left;
@@ -98,6 +105,7 @@ html body {
   .list-items{
     margin-right:2rem;
     margin-left:2rem;
+    list-style-image:url("https://www.gifs.cc/bullets/red-star-1.png");
   }
   .midImage{
     margin-right:10rem;

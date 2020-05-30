@@ -13,7 +13,7 @@ function Fun() {
   return (
     <div>
       <Nav />
-      <h1 className="funHeading">Fun Stuff!</h1>
+      <h1 className="funHeading headingAnimate">Fun Stuff!</h1>
       <div className="contentFun">
         <div className="mainFun columnFun">
           <div className="sectionOne">
@@ -24,7 +24,7 @@ function Fun() {
             </div>
             <div>What is your meaning of fun? Mine is...</div>
           </div>
-          <div>
+           <div>
             <div>
               <SmallCardImage
                 imageSource={mcImage}

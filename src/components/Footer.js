@@ -4,29 +4,29 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footerDiv">
-      <table>
-        <tbody className="footerStyle">
-          <tr>
-            <td>
-              <a href="/" alt="Home Page">
-                Home
-              </a>
-            </td>
-            <td>
-              <a href="/projects">My Projects</a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="/about"> About Me</a>
-            </td>
-            <td>
-              <a href="/fun">Fun Stuff</a>
-            </td>
-            <td className="copyWrite">&copy; HDNonni 2020.</td>
-          </tr>
-        </tbody>
-      </table>
+      <ul className="footerStyle">
+        <li>
+          <a href="/" className="nav2-link">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="projects" className="nav2-link">
+            My Projects
+          </a>
+        </li>
+        <li>
+          <a href="/about" className="nav2-link">
+            About Me
+          </a>
+        </li>
+        <li>
+          <a href="/fun" className="nav2-link">
+            Fun Stuff
+          </a>
+        </li>
+        <li className="copyWrite">&copy; HDNonni 2020.</li>
+      </ul>
     </div>
   );
 }
