@@ -1,15 +1,15 @@
 import React from 'react';
-import './Nav.css'
+import styles from "./Nav.module.css";
 
 function Nav(){
     return(
-        <nav className = 'nav'>
-            <h3 className = 'nav-title'>HDNonni</h3>
-            <ul className = 'nav-links'>
-                <li><a href="/" className="nav2-link">Home</a></li>
-                <li><a href="projects" className="nav2-link">My Projects</a></li>
-                <li><a href="/about" className="nav2-link">About Me</a></li>
-                <li><a href="/fun" className="nav2-link">Fun Stuff</a></li>
+        <nav className = {styles.nav}>
+            <h3 className = {styles.nav_title}>HDNonni</h3>
+            <ul className = {styles.nav_links}>
+                <li><a href="/" className={styles.nav2_link}>Home</a></li>
+                <li><a href="projects" className={styles.nav2_link}>My Projects</a></li>
+                <li><a href="/about" className={styles.nav2_link}>About Me</a></li>
+                <li><a href="/fun" className={styles.nav2_link}>Fun Stuff</a></li>
             </ul>
         </nav>
 

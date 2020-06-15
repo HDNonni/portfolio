@@ -9,7 +9,7 @@
   border-radius:5px;
   
 }
-.nav-links {
+.nav_links {
   width: 50%;
   display: flex;
   justify-content: space-around;
@@ -17,16 +17,16 @@
   list-style: none;
   
 }
-.nav-title{
+.nav_title{
   font-family: "Courgette", cursive;
   color: maroon;
 }
-.nav2-link{
+.nav2_link{
   color:blue;
   text-decoration: none;
   transition:color 1.0s, font-size 1.0s;
 }
-.nav2-link:hover{
+.nav2_link:hover{
   font-size:1.25rem;
   color:maroon;
 }

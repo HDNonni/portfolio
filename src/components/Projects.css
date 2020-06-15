@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 html body {
   height: 100vh;
   min-height:100%;
@@ -40,21 +43,66 @@ html body {
 .contentProjects {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+  flex:1;
+  /* width: 100%; */
 }
 .mainProject {
   display: flex;
-  flex-direction: column;
-  flex-basis: 75%;
+  flex-direction: row;
+  /* flex-basis: 75%; */
   flex: 1;
 }
-.columnOne {
-  text-align: start;
-}
-.columnTwo {
-  display: flex;
+.subColumnOne {
+  /* text-align: start; */
+  /* display: flex; */
   flex-direction: column;
-  flex-basis: 75%;
+  /* flex-basis: 75%; */
   flex: 1;
+}
+.subColumnTwo {
+  
+  flex-direction: column;
+  /* flex-basis: 75%; */
+  flex: 1;
+}
+
+/* .imagePlacement1{
+  margin-left:-12rem;
+}
+.imagePlacement2{
+  margin-right:5rem;
+} */
+.pageDescrip{
+  text-align: center;
+  font-size: 1.45rem;
+  color:maroon;
+  font-weight: 500;
+  text-shadow:1px 2px gray;
+}
+.subHead{
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.firstColumn{
+  padding-left:3rem;
+  padding-top:1rem;
+}
+.secondCol{
+  padding-left:6rem;
+}
+.rightArrow{
+  height:2rem;
+  width: 4rem;
+  border:none;
+  margin-top:0;
+  margin-left:2rem;
+  box-shadow: none;
+ 
+
+}
+.projectDescription{
+  margin-top:2rem;
+  padding-left:.75rem;
+  text-align: center;
 }

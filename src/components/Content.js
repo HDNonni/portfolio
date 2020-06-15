@@ -1,5 +1,6 @@
 import React from "react";
 import "./Content.css";
+import Quote from "./Quote";
 
 function Content() {
   return (
@@ -25,11 +26,11 @@ function Content() {
             </div>
           </article>
         </main>
-        <div className="sidebar">
+        <div>
           <aside>
             <div>
              
-              <p>Random stuff to see whats going on</p>
+              <Quote />
             </div>
           </aside>
         </div>

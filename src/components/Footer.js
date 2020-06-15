@@ -1,31 +1,31 @@
 import React from "react";
-import "./Footer.css";
+import styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    <div className="footerDiv">
-      <ul className="footerStyle">
+    <div className={styles.footerDiv}>
+      <ul className={styles.footerStyle}>
         <li>
-          <a href="/" className="nav2-link">
+          <a href="/" className={styles.nav2_link}>
             Home
           </a>
         </li>
         <li>
-          <a href="projects" className="nav2-link">
+          <a href="projects" className={styles.nav2_link}>
             My Projects
           </a>
         </li>
         <li>
-          <a href="/about" className="nav2-link">
+          <a href="/about" className={styles.nav2_link}>
             About Me
           </a>
         </li>
         <li>
-          <a href="/fun" className="nav2-link">
+          <a href="/fun" className={styles.nav2_link}>
             Fun Stuff
           </a>
         </li>
-        <li className="copyWrite">&copy; HDNonni 2020.</li>
+        <li className={styles.copyWrite}>&copy; HDNonni 2020.</li>
       </ul>
     </div>
   );
