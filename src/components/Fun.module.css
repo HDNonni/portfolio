@@ -79,7 +79,9 @@ html body {
     margin-left:10rem;
     /* margin-left:5rem; */
   }
-
+.moveImage{
+  margin-left:7rem;
+}
   .additionalItems{
     text-align:right;
     /* padding-right:2rem; */
@@ -111,7 +113,7 @@ html body {
     list-style-image:url("https://www.gifs.cc/bullets/red-star-1.png");
   }
   .midImage{
-    margin-right:10rem;
+    margin-right:5rem;
   }
   .gifStyle a{
    

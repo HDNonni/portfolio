@@ -25,14 +25,15 @@ function Fun() {
             <div>What is your meaning of fun? Mine is...</div>
           </div>
           <div>
-            {/* <div className={styles.imageSizing}> */}
+           <div className = {styles.moveImage}>
               <SmallCardImage
+                
                 imageSource={mcImage}
                 imageAlternative="my bike"
                 imageHead=""
                 imageDescr=""
               />
-              {/* </div> */}
+            </div>
               Riding My Motorcycle
               <div className={styles.additionalItems}>
                 {" "}
@@ -41,23 +42,27 @@ function Fun() {
             
 
             <div>
+            <div className = {styles.moveImage}>
               <SmallCardImage
                 imageSource={jeannesKids}
                 imageAlternative="grandkids"
                 imageHead=""
                 imageDescr=""
               />
+              </div>
               Playing with my Grandkids
               <div className={styles.additionalItems}>Learning new stuff</div>
             </div>
 
             <div>
+            <div className = {styles.moveImage}>
               <SmallCardImage
                 imageSource={flowerImage}
                 imageAlternative="front flowers"
                 imageHead=""
                 imageDescr=""
               />
+              </div>
               Playing in the dirt! (gardening)
               <div className={styles.additionalItems}>
                 Going out with friends
@@ -65,12 +70,14 @@ function Fun() {
             </div>
 
             <div>
+            <div className = {styles.moveImage}>
               <SmallCardImage
                 imageSource={melonyKids}
                 imageAlternative="grandkids"
                 imageHead=""
                 imageDescr=""
               />
+              </div>
               Cooking and Baking for the family
               <div className={styles.additionalItems}>
                 Relaxing with a good book
