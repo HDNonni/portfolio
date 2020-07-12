@@ -7,15 +7,14 @@ html body {
   display: flex;
   flex-direction: column;
   height:30rem;
-  width:100%;
+  max-width:100%;
   background-image: url("../assets/images/spaceship-background.jpg");
   background-color: rgb(109, 10, 56);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:center  bottom 5em;
-  /* background-position:center ; */
+  background-position:center  bottom 1em;
   background-attachment:fixed;
-  color: maroon;
+  color:linen;
   font-size:3rem;
   text-align:start;
   padding-top: 10rem;
@@ -24,6 +23,9 @@ html body {
   animation-name: projectTitle;
   animation-duration: 1.5s;
   animation-timing-function: ease-in;
+}
+h3{
+  padding-top:1rem;
 }
 .contentFun {
   display: flex;
@@ -73,7 +75,7 @@ html body {
     border:solid 1px gray;
     border-radius: 5px;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.322);
-    width:10rem;
+    width:15rem;
     height:7rem;
     margin-top:1rem;
     margin-left:10rem;
@@ -123,5 +125,11 @@ html body {
     background-color: lightgray;
     text-align: right;
   }
+
+  @media(min-width:1300px){
+    .moveImage{
+      margin-left:14rem;
+  }
+}
   /* <a href="https://www.freepik.com/free-photos-vectors/water">Water vector created by brgfx - www.freepik.com</a> */
   /* https://www.wallpapermobi.com/category/39/space-wallpapers/5271/spaceship-background */

@@ -6,6 +6,9 @@ html body {
   min-height:100%;
   margin: 0;
   box-sizing: border-box;
+  background-color: linen;
+}
+.main_background{
   background-color: lightgray;
 }
 .projectsHeading {
@@ -17,7 +20,7 @@ html body {
   background-color: rgb(109, 10, 56);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom 5em;
+  background-position: center bottom 1em;
   /* background-position:center ; */
   background-attachment: fixed;
   color: linen;
@@ -25,7 +28,7 @@ html body {
   text-align: start;
   padding-top: 10rem;
   padding-left: 1rem;
-  background-color: lightgray;
+  background-color: linen;
 }
 .titleAnimate {
   animation-name: projectTitle;
@@ -78,6 +81,7 @@ html body {
   color:maroon;
   font-weight: 500;
   text-shadow:1px 2px gray;
+  padding-top:1rem;
 }
 .subHead{
   text-align: center;

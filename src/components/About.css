@@ -25,13 +25,12 @@ html body {
     background-color: rgb(109, 10, 56);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position:center  bottom 5em; */
-    background-position:center bottom ;
+    background-position:center bottom 1em;
     background-attachment:fixed;
     color: white;
     font-size:3rem;
     text-align:start;
-    padding-top: 10rem;
+    padding-top: 14rem;
     padding-left:1rem;
     background-color: lightgray;
   }

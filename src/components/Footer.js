@@ -25,8 +25,11 @@ function Footer() {
             Fun Stuff
           </a>
         </li>
-        <li className={styles.copyWrite}>&copy; HDNonni 2020.</li>
+        
+        
       </ul>
+      <div className={styles.spacer}></div>
+      <div className={styles.copyWrite}>&copy; HDNonni 2020.</div>
     </div>
   );
 }

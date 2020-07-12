@@ -3,12 +3,12 @@
   display:flex;
   background: linen;
   width:100%;
+  /* min-height: 100vh; */
 }
 .footerStyle {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  flex: 1;
   height: 5rem;
   background: linen;
   list-style: none;
@@ -28,6 +28,17 @@ a {
   font-size:1.25rem;
   color:maroon;
 }
+.spacer{
+  flex:1;
+}
+
 .copyWrite{
-    padding-left:25rem;
+  margin-top:1rem;  
+  margin-right:1rem;
+}
+@media (max-width: 780px) {
+.footerDiv{
+  display: none;
+}
+
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import Nav from "./Nav";
+import NavbarBoot from "./NavbarBoot";
 import SmallCardImage from "./SmallCardImage";
 import melonyKids from "../assets/images/meAndMelsKids.jpg";
 import mcImage from "../assets/images/mom1.png";
@@ -12,7 +12,7 @@ import styles from "./Fun.module.css";
 function Fun() {
   return (
     <div>
-      <Nav />
+      <NavbarBoot />
       <h1 className={styles.funHeading}>Fun Stuff!</h1>
       <div className={styles.contentFun}>
         <div className={styles.mainFun}>

@@ -5,10 +5,10 @@ import "./MainNav.css";
 
 function MainNav() {
   return (
-    <nav className = "navbar">
-      <ul className="navbar-nav">
+    <nav className = "navbar1">
+      <ul className="navbar-nav1">
         <li className="logo">
-          <a href="#" className="nav-link">
+          <a href="#" className="nav-link-main">
            
             <svg
               
@@ -37,7 +37,7 @@ function MainNav() {
           </a>
         </li>
         <li className="nav-item">
-        <a href="/" className="nav-link">
+        <a href="/" className="nav-link-main">
             <svg
               className="theme-icon"
               id="lightIcon"
@@ -67,7 +67,7 @@ function MainNav() {
           </a>
         </li>
         <li className="nav-item">
-        <a href="/about" className="nav-link">
+        <a href="/about" className="nav-link-main">
         <svg
               className="theme-icon"
               id="darkIcon"
@@ -98,7 +98,7 @@ function MainNav() {
         </li>
   
         <li className="nav-item">
-          <a href="/projects" className="nav-link">
+          <a href="/projects" className="nav-link-main">
           <svg
               className="theme-icon"
               id="solarIcon"
@@ -131,7 +131,7 @@ function MainNav() {
         
   
         <li className="nav-item">
-          <a href="/fun" className="nav-link">
+          <a href="/fun" className="nav-link-main">
             <svg
               aria-hidden="true"
               focusable="false"

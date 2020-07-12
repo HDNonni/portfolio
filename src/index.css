@@ -1,9 +1,13 @@
 
+html{
+  height: 100%;
+}
 body {
   margin: 0;
   font-family: 'Gotu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {

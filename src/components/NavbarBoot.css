@@ -1,0 +1,14 @@
+.bg-light {
+  background-color: linen !important;
+}
+
+.navbar-brand {
+  font-family: "Courgette", cursive;
+  font-size: 1.5rem;
+}
+.navbar-light .navbar-brand {
+  color: rgb(128, 0, 0);
+}
+a.nav-link{
+    margin-right:1rem;
+}
