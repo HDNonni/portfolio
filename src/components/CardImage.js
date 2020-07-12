@@ -5,9 +5,8 @@ import PropTypes from 'prop-types';
 
 function CardImage(props) {
   return (
-    
-    //<React.Fragment>
-    <div>
+ 
+    <div className = "imageContainer">
       <img
         src={props.imageSrc}
         alt={props.imageAlt}
@@ -20,7 +19,7 @@ function CardImage(props) {
         <p className="imageDesc">{props.imageDescription}</p>
       </div>
       </div>
-    //</React.Fragment>
+  
     
   );
 }
