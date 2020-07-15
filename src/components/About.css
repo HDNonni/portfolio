@@ -30,7 +30,7 @@ html body {
     color: white;
     font-size:3rem;
     text-align:start;
-    padding-top: 14rem;
+    padding-top: 224px;
     padding-left:1rem;
     background-color: lightgray;
   }
@@ -51,10 +51,6 @@ html body {
   border-radius: 5px; /* 5px rounded corners */
   margin:1rem 2rem;
   background-color: lightgray;
-}
-.card2 img{
-  margin-left:4rem;
-  margin-bottom: 1rem;
 }
 .card1 img{
   margin-left:4rem;
@@ -87,3 +83,10 @@ img {
   margin:.75rem 2rem .5rem 1.5rem;
 }
 
+@media(max-width:630px){
+
+  img{
+    width:150px;
+  }
+ 
+}

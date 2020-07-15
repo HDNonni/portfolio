@@ -10,7 +10,7 @@ function CardImage(props) {
       <img
         src={props.imageSrc}
         alt={props.imageAlt}
-        // style="width:100%"
+        
       ></img>
       <div className="container">
         <h4 className="imageHeading">

@@ -33,6 +33,7 @@ function Projects() {
         </div>
         <div className="firstColumn">
           This column I designed and built( with a little help along the way!){" "}
+          <span className = "space"></span>
           <span className="secondCol">
             Along my journey there were several tutorials and here is some of
             the results
@@ -79,8 +80,8 @@ function Projects() {
                   alt="right Arrow"
                 ></img>
               </div>
-              <div className="projectDescription">
-                This is my new portfolio built in React
+              <div className="projectDescription myProject">
+                This is my new portfolio built in React with a little help from Bootstrap
                 <img
                   className="rightArrow"
                   src={rightArrow}
@@ -89,6 +90,7 @@ function Projects() {
               </div>
             </div>
             <div className="subColumnTwo">
+           
               <div className="projectDescription">
                 A Mock Restaurant built with HTML, CSS, Bootstrap and JQuery{" "}
                 <img
@@ -140,12 +142,6 @@ function Projects() {
           </div>
 
           <div className="mainProject">
-            {/* <div>On my jouney I took advantage of several tutorials</div>
-          <div>
-            In this column I share with you the results of some of my learning
-            experiences
-          </div> */}
-
             <div className="subColumnOne">
               <div className="imagePlacement1">
                 {/* <a href = " https://hdnonni.github.io/Mock-Restaurant/dessertFirst.html" target="_blank"</a>> */}

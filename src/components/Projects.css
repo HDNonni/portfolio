@@ -6,7 +6,7 @@ html body {
   min-height:100%;
   margin: 0;
   box-sizing: border-box;
-  background-color: linen;
+  background-color: lightgray;
 }
 .main_background{
   background-color: lightgray;
@@ -93,7 +93,10 @@ html body {
   padding-top:1rem;
 }
 .secondCol{
-  padding-left:6rem;
+  
+}
+.space{
+  padding-left:6rem
 }
 .rightArrow{
   height:2rem;
@@ -110,3 +113,47 @@ html body {
   padding-left:.75rem;
   text-align: center;
 }
+@media (max-width: 980px) {
+  .mainProject{
+    flex-direction: column;
+  }
+  .contentProjects{
+    flex-direction:column ;
+  }
+  .firstColumn{
+    display: none;
+  }
+  .secondCol{
+    display: none;
+  }
+  .projectDescription{
+    display: none;
+  }
+ 
+  .projectDescription{
+    padding-top:2rem;
+  }
+  .imagePlacement1{
+    padding-left:4rem;
+  }
+  .imagePlacement2{
+    padding-left:4rem;
+  }
+  .main_background{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+  }
+
+  
+  }
+  @media(max-width:1268px){
+    .space{
+      padding-left:1rem;
+    }
+  }
+  @media(min-width:1300px){
+    .secondCol{
+      padding-left:14rem;
+    }
+  }

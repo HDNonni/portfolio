@@ -51,17 +51,7 @@ function About() {
           </div>
 
           <div className="card card1">
-            {/* <img
-                src={image}
-                alt="grandkids"
-                // style="width:100%"
-              ></img>
-              <div class="container">
-                <h4 class="imageHeading">
-                  <b>My Stars</b>
-                </h4>
-                <p class="imageDesc">Nonni's Babies</p>
-              </div> */}
+            
             <CardImage
               imageSrc={imageGrandKids}
               imageAlt="grandkids"
@@ -74,7 +64,7 @@ function About() {
         <div className="mainAbout">
           <div >
            
-            <div className="card card2">
+            <div className="card card1">
               <CardImage
                 imageSrc={imageFamily}
                 imageAlt="grandkidsfamily"
@@ -122,8 +112,8 @@ function About() {
               <p>
                 So this has been my journey to now. It has been exciting,
                 educational, frustrating , meaningful, stressful, adventurous
-                and difficult but also fun and challenging which makes it the
-                journey of a lifetime!{" "}
+                and difficult but also fun and challenging which makes it a
+                journey well traveled!{" "}
               </p>
             </div>
           </div>

@@ -6,7 +6,7 @@ import {Navbar, Container, Nav} from 'react-bootstrap';
 class NavbarBoot extends Component {
   render(){
   return (
-    <Container fluid>
+    <Container fluid className = "headBack">
       <Navbar collapseOnSelect expand="md" bg="light" variant="light">
         <Navbar.Brand href="/">HDNonni</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
