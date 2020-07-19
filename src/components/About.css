@@ -82,7 +82,14 @@ img {
   text-align: center;
   margin:.75rem 2rem .5rem 1.5rem;
 }
+.resumeLink{
+  color:maroon;
+  padding-left:2px;
+}
 
+.resumeLink:hover{
+  font-size:1.15rem;
+}
 @media(max-width:630px){
 
   img{

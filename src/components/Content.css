@@ -72,7 +72,7 @@ article {
     font-size: 2rem;
   }
   .sidebar{
-    margin: 0;
+    margin: 0 auto;
   }
   .content{
     flex-direction: column;

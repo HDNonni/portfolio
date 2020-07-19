@@ -51,7 +51,6 @@ function About() {
           </div>
 
           <div className="card card1">
-            
             <CardImage
               imageSrc={imageGrandKids}
               imageAlt="grandkids"
@@ -59,11 +58,9 @@ function About() {
               imageDescription="Nonni's Babies"
             />
           </div>
-       
         </div>
         <div className="mainAbout">
-          <div >
-           
+          <div>
             <div className="card card1">
               <CardImage
                 imageSrc={imageFamily}
@@ -104,16 +101,19 @@ function About() {
                 javaScript but in frameworks and libraries that can help build
                 awesome things.
               </p>
-              <p>
-                {" "}
-                Additionally, I delved into python, a little PHP and
-                familizarized myself with databases to name a few.
-              </p>
+
               <p>
                 So this has been my journey to now. It has been exciting,
                 educational, frustrating , meaningful, stressful, adventurous
                 and difficult but also fun and challenging which makes it a
                 journey well traveled!{" "}
+              </p>
+              <p>
+                See My
+                <a className = "resumeLink"href="https://hdnonni.github.io/Resume/resume.html">
+                  Resume
+                </a>{" "}
+                Here!
               </p>
             </div>
           </div>
